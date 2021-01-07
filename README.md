@@ -9,3 +9,10 @@
 - Shell : [ohmyzsh](https://ohmyz.sh/) with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)  
 - Terminal : gnome-terminal / Konsole
 - Text Editor : [neovim](https://neovim.io/)
+
+### Security
+- GPG : GnuPG2
+
+### Keys
+- [SSH Public Key](https://meta.sr.ht/~munn.keys)
+- [Primary Signature](https://meta.sr.ht/~munn.pgp)
