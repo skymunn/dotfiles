@@ -9,6 +9,7 @@
 - Shell : [ohmyzsh](https://ohmyz.sh/) with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)  
 - Terminal : gnome-terminal / Konsole
 - Text Editor : [neovim](https://neovim.io/)
+- Terminal Multiplexer : [tmux](https://github.com/tmux/tmux)
 
 ### Security
 - GPG : GnuPG2
