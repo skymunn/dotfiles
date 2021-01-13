@@ -8,7 +8,7 @@ set linebreak
 set showmatch
 set showtabline=1
 set mouse=a
-set ts=4 sw=2
+set ts=2 sw=2
 set wrap!
 set cmdheight=1
 set hidden
