@@ -1,6 +1,4 @@
 call plug#begin('~/.vim/plug')
-" one-dark
-Plug 'joshdick/onedark.vim'
 " lightline
 Plug 'itchyny/lightline.vim'
 " vim-startify
@@ -13,5 +11,9 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'mattn/emmet-vim'
 " Indentline
 Plug 'Yggdroot/indentLine'
+" Sonokai
+Plug 'sainnhe/sonokai'
+" vim-polyglot
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
