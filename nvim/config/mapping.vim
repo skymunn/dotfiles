@@ -2,8 +2,6 @@
 nnoremap <space>e :CocCommand explorer<CR>
 " Open coc diagnostic
 nnoremap <space>d :CocCommand diagnostic<CR>
-" save file
-map <C-s> :w<CR>
 " undo redo
 map <C-z> :undo<CR>
 map <S-z> :redo<CR>
