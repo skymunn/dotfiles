@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plug')
 Plug 'editorconfig/editorconfig-vim'
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 " make vim startup more faster
@@ -25,6 +26,7 @@ set incsearch
 
 set autoindent
 set ts=2 sw=2
+set expandtab
 
 " set et  " uncomment to use space instead of tab
 set smartindent
