@@ -15,5 +15,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'sainnhe/sonokai'
 " vim-polyglot
 Plug 'sheerun/vim-polyglot'
+" ctrlp
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
