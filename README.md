@@ -4,6 +4,7 @@
 
 ### Fonts
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)
+- [Noto Color Emoji](https://github.com/googlefonts/noto-emoji)
 
 ### App
 - Shell : [ohmyzsh](https://ohmyz.sh/) with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)  
