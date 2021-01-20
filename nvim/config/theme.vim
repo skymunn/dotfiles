@@ -6,12 +6,6 @@ let g:sonokai_style = 'default' " defaut/atlantis/andromeda/shusia/mata
 let g:sonokai_transparent_background = 0
 colorscheme sonokai
 
-" Polyglot
-let g:polyglot_disabled = [
-	\ 'autoindent',
-	\ 'sensible'
-  \ ]
-
 " lightline
 set laststatus=2
 let g:lightline = {

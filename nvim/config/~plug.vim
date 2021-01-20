@@ -13,8 +13,6 @@ Plug 'mattn/emmet-vim'
 Plug 'Yggdroot/indentLine'
 " Sonokai
 Plug 'sainnhe/sonokai'
-" vim-polyglot
-Plug 'sheerun/vim-polyglot'
 " ctrlp
 Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
