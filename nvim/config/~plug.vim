@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plug')
-" lightline
-Plug 'itchyny/lightline.vim'
+
+" airline
+Plug 'vim-airline/vim-airline'
 " vim-startify
 Plug 'mhinz/vim-startify'
 " vim.coc
@@ -15,5 +16,12 @@ Plug 'Yggdroot/indentLine'
 Plug 'sainnhe/sonokai'
 " ctrlp
 Plug 'ctrlpvim/ctrlp.vim'
+
+" Rest of theme here
+" shades-of-purple
+Plug 'Rigellute/shades-of-purple.vim'
+" Sonokai
+Plug 'sainnhe/sonokai'
+
 call plug#end()
 

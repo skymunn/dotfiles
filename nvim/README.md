@@ -5,7 +5,7 @@
 4. Execute `:PlugInstall`
 5. Execute `:CocInstall <Extension>`
 
-## CoCList.Extension
+## coc.vim Extension
 1. coc-tsserver
 2. coc-json
 3. coc-html
@@ -15,3 +15,8 @@
 7. coc-python
 8. coc-discord-rpc
 9. coc-explorer
+
+## Theme available
+- sonokai
+- shades_of_purple
+You can change it in `init.vim` and restart vim/re-source `init.vim`.

@@ -1,10 +1,12 @@
 let config_list = [
-    \ '~plug.vim',
+  \ '~plug.vim',
 	\ 'autocommand.vim',
 	\ 'indentline.vim',
 	\ 'mapping.vim',
 	\ 'setter.vim',
-	\ 'theme.vim'
+	\ 'theme.vim',
+  \ 'airline.vim',
+  \ 'theme_sonokai.vim'
   \ ]
 
 for files in config_list
