@@ -1,21 +1,12 @@
 syntax on
 highlight LineNr ctermfg=white
 
-" Sonokai
-let g:sonokai_style = 'default' " defaut/atlantis/andromeda/shusia/mata
-let g:sonokai_transparent_background = 0
-colorscheme sonokai
-
-" lightline
-set laststatus=2
-let g:lightline = {
-	\ 'colorscheme': 'darcula',
-	\ 'active': {
-	\	'left': [ [ 'mode', 'paste' ],
-	\			[ 'gitbranch', 'readonly', 'filename', 'modified' ]
-	\	]
-	\ },
-	\}
+" polyglot
+let g:polyglot_disabled = [
+	\ 'markdown',
+	\ 'autoindent',
+	\ 'sensible'
+  \ ]
 
 " returns all modified files of the current git repo
 " `2>/dev/null` makes the command fail quietly, so that when we are not
