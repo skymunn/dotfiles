@@ -16,6 +16,8 @@ Plug 'Yggdroot/indentLine'
 Plug 'sainnhe/sonokai'
 " ctrlp
 Plug 'ctrlpvim/ctrlp.vim'
+" polyglot
+Plug 'sheerun/vim-polyglot'
 
 " Rest of theme here
 " shades-of-purple

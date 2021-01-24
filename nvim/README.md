@@ -17,6 +17,14 @@
 9. coc-explorer
 
 ## Theme available
+You can change it in `init.vim` and restart vim/re-source `init.vim`.
+
 - sonokai
 - shades_of_purple
-You can change it in `init.vim` and restart vim/re-source `init.vim`.
+
+## Screenshot
+- Sonokai
+![Sonokai](./screenshot/sonokai.png)
+- shades_of_purple
+![shades_of_purple](./screenshot/shades_of_purples.png)
+
