@@ -5,3 +5,6 @@ This is my server (neo)vim configuration.
 2. If you using vim, rename this folder to `.vim`.
 3. If you using vim, rename `init.vim` to `.vimrc`, `_vimrc`, or `vimrc`
 
+## Screenshot
+![Preview](./screenshot.png)
+
