@@ -6,5 +6,5 @@ This is my server (neo)vim configuration.
 3. If you using vim, rename `init.vim` to `.vimrc`, `_vimrc`, or `vimrc`
 
 ## Screenshot
-![Preview](./screenshot.png)
+![Preview](./ss.png)
 
