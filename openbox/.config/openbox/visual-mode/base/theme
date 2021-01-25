@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Background Handler
+feh --bg-fill ~/.wallpaper/default.jpg
+
+# Panel
+tint2 &
+
+# Dunst
+dunst -config ~/.config/dunst/dunstrc-dark
+

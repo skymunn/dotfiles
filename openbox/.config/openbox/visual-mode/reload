@@ -1,0 +1,9 @@
+#!/bin/sh
+
+current="$(cat ~/.config/openbox/visual-mode/current)"
+
+# Set current mode to "reload"
+echo "restart" > ~/.config/openbox/visual-mode/current
+
+# Run setter
+bash -c ~/.config/openbox/visual-mode/set-"$current"

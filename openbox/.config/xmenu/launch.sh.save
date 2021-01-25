@@ -1,0 +1,22 @@
+#!/bin/sh
+
+cat <<EOF | xmenu | sh &
+Applications
+	IMG:~./icons/web.png	Web Browser	firefox
+	IMG:./icons/gimp.png	Image editor	gimp
+
+Terminal		konsole
+
+Set Theme
+	Base		~/.config/openbox/visual-mode/set-base
+	Restart		~/.config/openbox/visual-mode/reload
+
+Openbox
+	Reconfigure		openbox --reconfigure
+	ObConf			obconf
+	Configure XMenu		konsole -e nano ~/.config/xmenu/launch.sh
+
+Shutdown		poweroff
+Reboot			reboot
+Logout			pkill -u munn
+EOF

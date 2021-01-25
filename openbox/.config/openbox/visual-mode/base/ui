@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Reconfigure openbox
+openbox --reconfigure
+
