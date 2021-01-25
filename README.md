@@ -5,10 +5,12 @@
 ### Fonts
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)
 - [Noto Color Emoji](https://github.com/googlefonts/noto-emoji)
+- [Google Material](https://github.com/google/material-design-icons)
+- [Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka)
 
 ### App
 - Shell : [ohmyzsh](https://ohmyz.sh/) with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)  
-- Terminal : gnome-terminal / Konsole
+- Terminal : Konsole / [urxvt](https://github.com/exg/rxvt-unicode)
 - Text Editor : [neovim](https://neovim.io/)
 - Terminal Multiplexer : [tmux](https://github.com/tmux/tmux)
 
@@ -18,3 +20,7 @@
 ### Keys
 - [SSH Public Key](https://meta.sr.ht/~munn.keys)
 - [Primary Signature](https://meta.sr.ht/~munn.pgp)
+
+### Remote
+- [GitHub](https://github.com/skymunn/dotfiles)
+- [Sourcehut](https://git.sr.ht/~munn/dotfiles)
