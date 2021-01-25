@@ -4,8 +4,9 @@ This is my primary (neo)vim configuration.
 1. Copy this folder in `~/.config`.
 2. If you using vim, rename this folder to `.vim`.
 3. If you using vim, rename `init.vim` to `.vimrc`, `_vimrc`, or `vimrc`
-4. Execute `:PlugInstall`
-5. Execute `:CocInstall <Extension>`
+4. Install all fonts in this root folder.
+5. Execute `:PlugInstall`
+6. Execute `:CocInstall <Extension>`
 
 ## coc.vim Extension
 1. coc-tsserver
