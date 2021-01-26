@@ -19,6 +19,7 @@ The ultimate openbox configuration here!
 - gtk2.0
 - gtk3.0
 - slock
+- picom
 
 ## Dependency (manually install)
 - xmenu
