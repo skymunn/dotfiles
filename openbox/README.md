@@ -14,6 +14,11 @@ The ultimate openbox configuration here!
 - libpulse-dev
 - gsimplecal
 - libboost-program-options1.71-dev 
+- xfce4
+- xcfe4-goodies
+- gtk2.0
+- gtk3.0
+- slock
 
 ## Dependency (manually install)
 - xmenu
@@ -24,10 +29,11 @@ The ultimate openbox configuration here!
 1. Install all the dependency.
 2. Copy all this folder and file in your home directory (`~/` or `/home/$USER`)
 3. Goto `~/.config/tint2` and copy `base_tint2` to `tint2rc`.
-4. Install all fonts in this root folder.
-5. Logout and start openbox session.
-6. Press `Meta + Alt + Enter` and choose the theme.
-7. Have fun!
+4. Goto `~/.config/dunst` and copy `dunstrc-dark` to `dunstrc`.
+5. Install all fonts in this root folder.
+6. Logout and start openbox session.
+7. Press `Meta + Alt + Enter` and choose the theme.
+8. Have fun!
 
 ## Theme
 *Screenshot coming soon!*

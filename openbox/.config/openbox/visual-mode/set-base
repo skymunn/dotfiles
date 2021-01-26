@@ -17,13 +17,11 @@ if [[ $current != *"base"* ]]; then
     # Write Current
     echo "base" > ~/.config/openbox/visual-mode/current
 
-    # Notify Success
-    notify-send -u low -i lookswitcher "Visual Mode" "Mechanical Theme Applied"
+    notify-send "Visual Mode" "Base Theme Applied"
 
 else
 
-    # Notify Fail
-    notify-send -u low -i lookswitcher "Visual Mode" "You're Already in Mechanical Theme"
+    notify-send "Visual Mode" "You're Already in Base Theme"
 
 fi
 

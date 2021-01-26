@@ -17,7 +17,7 @@
 echo "startup" > ~/.config/openbox/visual-mode/current
 
 # Initialize wallpaper to mark this wm is ready
-feh --bg-scale ~/.wallpaper/default.jpg
+feh --bg-scale ~/.wallpaper/Openbox_Loaded.jpg
 
 # System Tray
 bash -c ~/.config/openbox/tray.d

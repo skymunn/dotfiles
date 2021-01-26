@@ -435,6 +435,7 @@
     </keybind>
     <keybind key="W-A-C-Return">
       <action name="Execute">
+        <decor>no</decor>
         <command>urxvt</command>
       </action>
     </keybind>
@@ -488,6 +489,11 @@
     <keybind key="W-l">
       <action name="Execute">
         <command>slock</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-l">
+      <action name="Execute">
+        <command>bash -c ~/.config/rofi/powermenu/powermenu.sh</command>
       </action>
     </keybind>
   </keyboard>
@@ -947,5 +953,20 @@
 
   # end of the example
 -->
+    <application name="urxvt">
+      <decor>no</decor>
+      <position force="yes">
+        <x>0</x>
+        <y>0</y>
+      </position>
+      <layer>above</layer>
+    </application>
+    <application name="nvim-qt">
+      <decor>no</decor>
+      <position force="yes">
+        <x>0</x>
+        <y>0</y>
+      </position>
+    </application>
   </applications>
 </openbox_config>
