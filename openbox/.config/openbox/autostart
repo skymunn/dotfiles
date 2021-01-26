@@ -23,5 +23,5 @@ feh --bg-scale ~/.wallpaper/Openbox_Loaded.jpg
 bash -c ~/.config/openbox/tray.d
 
 # Compositor
-# picom -b
+picom -b
 
