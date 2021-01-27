@@ -4,7 +4,7 @@
 feh --bg-fill ~/.wallpaper/default.jpg
 
 # Panel
-tint2 &
+tint2 -c ~/.config/tint2/base_tint2rc &
 
 # Dunst
 #dunst -config '~/.config/dunst/dunstrc-dark' &
