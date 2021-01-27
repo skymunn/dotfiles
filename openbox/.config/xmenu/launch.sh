@@ -17,7 +17,5 @@ Openbox
 	Configure Tint2		tint2conf
 	Configure urxvt		konsole -e nano ~/.Xresources
 
-Shutdown		poweroff
-Reboot			reboot
-Logout			pkill -u munn
+Power Menu			~/.config/rofi/powermenu/powermenu.sh
 EOF
