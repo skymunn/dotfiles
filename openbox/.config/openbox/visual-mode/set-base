@@ -5,7 +5,7 @@ current="$(cat ~/.config/openbox/visual-mode/current)"
 if [[ $current != *"base"* ]]; then
 
     # Kill Current
-    bash -c '~/.config/openbox/visual-mode/kill-ui'
+    bash -c '~/.config/openbox/visual-mode/kill-all'
     
     # Set UI & Theme
     bash -c '~/.config/openbox/visual-mode/base/theme'

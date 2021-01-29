@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Background Handler
+feh --bg-fill ~/.wallpaper/default.jpg
+
+# Panel
+tint2 -c ~/.config/tint2/elainord-1.tint2rc &
+tint2 -c ~/.config/tint2/elainord-2.tint2rc &
+tint2 -c ~/.config/tint2/elainord-3.tint2rc &
+
+# Dunst
+#dunst -config '~/.config/dunst/dunstrc-dark' &
+cp -f ~/.config/dunst/dunstrc-dark ~/.config/dunst/dunstrc
+

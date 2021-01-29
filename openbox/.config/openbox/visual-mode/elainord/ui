@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Set openbox margin
+sed -i 's_<top>0</top>_<top>10</top>_' ~/.config/openbox/rc.xml
+sed -i 's_<left>0</left>_<left>10</left>_' ~/.config/openbox/rc.xml
+sed -i 's_<right>0</right>_<right>10</right>_' ~/.config/openbox/rc.xml
+sed -i 's_<bottom>0</bottom>_<bottom>40</bottom>_' ~/.config/openbox/rc.xml
+
+# Reconfigure openbox
+openbox --reconfigure
+

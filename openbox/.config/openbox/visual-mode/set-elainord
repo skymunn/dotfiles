@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+current="$(cat ~/.config/openbox/visual-mode/current)"
+
+if [[ $current != *"elainord"* ]]; then
+
+    # Kill Current
+    bash -c '~/.config/openbox/visual-mode/kill-all'
+    
+    # Set UI & Theme
+    bash -c '~/.config/openbox/visual-mode/elainord/theme'
+    bash -c '~/.config/openbox/visual-mode/elainord/ui'
+    
+    # Tray
+    bash -c '~/.config/openbox/tray'
+    
+    # Write Current
+    echo "elainord" > ~/.config/openbox/visual-mode/current
+
+    notify-send "Visual Mode" "ElaiNord Theme Applied"
+
+else
+
+    notify-send "Visual Mode" "You're Already in ElaiNord Theme"
+
+fi
+
