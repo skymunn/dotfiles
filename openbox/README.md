@@ -37,7 +37,9 @@ The ultimate openbox configuration here!
 8. Have fun!
 
 ## Theme
-*Screenshot coming soon!*
-
 - Base
+![base](./ss/base.png)
+- ElaiNord (elaina's [mciicrw](https://github.com/mciicrw) + nordic)
+![elainord](./ss/elainord.png)
+
 
