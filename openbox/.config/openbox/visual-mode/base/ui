@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Change theme
+sed -i 's_ElaiNord_ElaiNordBorderless_' ~/.config/openbox/rc.xml
+
 # Reconfigure openbox
 openbox --reconfigure
 

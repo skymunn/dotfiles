@@ -8,6 +8,7 @@ Terminal (urxvt + xrdb)		xrdb ~/.Xresources && urxvt
 
 Set Theme
 	Base		~/.config/openbox/visual-mode/set-base
+	ElaiNord	~/.config/openbox/visual-mode/set-elainord
 	Restart		~/.config/openbox/visual-mode/reload
 
 Openbox
