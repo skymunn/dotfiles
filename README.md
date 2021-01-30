@@ -13,6 +13,8 @@
 - Terminal : Konsole / [urxvt](https://github.com/exg/rxvt-unicode)
 - Text Editor : [neovim](https://neovim.io/)
 - Terminal Multiplexer : [tmux](https://github.com/tmux/tmux)
+- DE: [Plasma](https://kde.org/plasma-desktop/)
+- WM: [Openbox](http://openbox.org/)
 
 ### Security
 - GPG : GnuPG2
@@ -24,3 +26,4 @@
 ### Remote
 - [GitHub](https://github.com/skymunn/dotfiles)
 - [Sourcehut](https://git.sr.ht/~munn/dotfiles)
+

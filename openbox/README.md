@@ -21,6 +21,7 @@ The ultimate openbox configuration here!
 - slock
 - picom
 - thunar
+- papirus-icon-theme
 
 ## Dependency (manually install)
 - xmenu
