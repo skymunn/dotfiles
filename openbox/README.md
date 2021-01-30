@@ -20,6 +20,7 @@ The ultimate openbox configuration here!
 - gtk3.0
 - slock
 - picom
+- thunar
 
 ## Dependency (manually install)
 - xmenu

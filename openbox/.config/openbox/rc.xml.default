@@ -433,6 +433,11 @@
         <command>dolphin</command>
       </action>
     </keybind>
+    <keybind key="W-S-e">
+      <action name="Execute">
+        <command>thunar</command>
+      </action>
+    </keybind>
     <keybind key="W-A-C-Return">
       <action name="Execute">
         <decor>no</decor>
