@@ -30,7 +30,7 @@ The ultimate openbox configuration here!
 ## How to install
 1. Install all the dependency.
 2. Copy all this folder and file in your home directory (`~/` or `/home/$USER`)
-3. Goto `~/.config/tint2` and copy `base_tint2` to `tint2rc`.
+3. Goto `~/.config/openbox` and copy `rc.xml.default` to `rc.xml`.
 4. Goto `~/.config/dunst` and copy `dunstrc-dark` to `dunstrc`.
 5. Install all fonts in this root folder.
 6. Logout and start openbox session.
@@ -42,5 +42,3 @@ The ultimate openbox configuration here!
 ![base](./ss/base.png)
 - ElaiNord (elaina's [mciicrw](https://github.com/mciicrw) + nordic)
 ![elainord](./ss/elainord.png)
-
-

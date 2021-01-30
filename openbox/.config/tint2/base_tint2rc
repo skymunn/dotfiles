@@ -183,7 +183,7 @@ launcher_item_app = google-chrome.desktop
 
 #-------------------------------------
 # Clock
-time1_format = %I:%M%p
+time1_format = %I:%M:%S %p
 time2_format = 
 time1_font = Iosevka 10
 time1_timezone = 
