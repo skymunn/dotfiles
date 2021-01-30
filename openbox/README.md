@@ -22,6 +22,7 @@ The ultimate openbox configuration here!
 - picom
 - thunar
 - papirus-icon-theme
+- network-manager (nmcli)
 
 ## Dependency (manually install)
 - xmenu
