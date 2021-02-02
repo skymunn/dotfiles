@@ -12,9 +12,11 @@
 #  gnome-settings-daemon &
 #fi
 
-
 # Reset to startup
 echo "startup" > ~/.config/openbox/visual-mode/current
+
+# Compositor
+picom -b
 
 # Initialize wallpaper to mark this wm is ready
 feh --bg-scale ~/.wallpaper/Openbox_Loaded.jpg
@@ -22,6 +24,7 @@ feh --bg-scale ~/.wallpaper/Openbox_Loaded.jpg
 # System Tray
 bash -c ~/.config/openbox/tray.d
 
-# Compositor
-picom -b
+# Start default theme
+def="$(cat ~/.config/openbox/visual-mode/default)"
+bash -c ~/.config/openbox/visual-mode/set-$def
 

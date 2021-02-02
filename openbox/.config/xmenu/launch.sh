@@ -12,11 +12,12 @@ Set Theme
 	Restart		~/.config/openbox/visual-mode/reload
 
 Openbox
-	Reconfigure		openbox --reconfigure
-	ObConf			obconf
-	Configure XMenu		konsole -e nano ~/.config/xmenu/launch.sh
-	Configure Tint2		tint2conf
-	Configure urxvt		konsole -e nano ~/.Xresources
+	Reconfigure			openbox --reconfigure
+	ObConf				obconf
+	Configure XMenu			konsole -e nano ~/.config/xmenu/launch.sh
+	Configure Tint2			tint2conf
+	Configure urxvt			konsole -e nano ~/.Xresources
+	Configure Default Theme		konsole -e nano ~/.config/openbox/visual-mode/default
 Animation
 	Turn On			picom &
 	Turn Off		killall picom
