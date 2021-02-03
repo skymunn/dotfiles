@@ -1,33 +1,37 @@
 The ultimate openbox configuration here!
 
 ## Dependency (From APT/AUR)
-- openbox
-- dunst
-- tint2
-- feh
-- rofi
+- openbox - Window Manager
+- dunst - Notification Daemon
+- tint2 - Panel
+- feh - Image & Background Setter
+- rofi - dmenu replacement
+- gsimplecal - Simple Calendar
+- brightnessctl - Brightness Controller
+- xfce4 - XFCE4 Tools (for Power Control)
+- slock - Suckless Lockscreen
+- picom - Compositor
+- thunar - File Manager (alternative for Dolphin)
+- papirus-icon-theme - Icon Theme
+- network-manager (nmcli) - Managing Network
+- mpc - Music Player Console
+- mpd - Music Player Daemon
 - rofi-dev
 - libnotify-bin
 - notify-osd
-- brightnessctl
 - libimlib2-dev
 - libpulse-dev
-- gsimplecal
 - libboost-program-options1.71-dev 
-- xfce4
 - xcfe4-goodies
 - gtk2.0
 - gtk3.0
-- slock
-- picom
-- thunar
-- papirus-icon-theme
-- network-manager (nmcli)
 
 ## Dependency (manually install)
-- xmenu
-- pamixer
-- rofi-emoji
+- xmenu - Meta Menu
+- pamixer - Audio Controller
+- rofi-emoji - Emoji library for Rofi
+- xev - Key identifier
+- d-feet - DBus Indentifier
 
 ## How to install
 1. Install all the dependency.
