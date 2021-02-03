@@ -1,6 +1,6 @@
 {
-  "rpc.lowerDetailsEditing": "Col. {currentcolumn} Line. {currentline} | Total Lines: {totallines}",
   "explorer.icon.enableNerdfont": true,
+	"rpc.workspaceElapsedTime": true,
   "languageserver": {
 	"python": {
 	  "command": "py",

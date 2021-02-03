@@ -16,6 +16,7 @@ The ultimate openbox configuration here!
 - network-manager (nmcli) - Managing Network
 - mpc - Music Player Console
 - mpd - Music Player Daemon
+- d-feet - DBus Identifier
 - rofi-dev
 - libnotify-bin
 - notify-osd
@@ -31,7 +32,6 @@ The ultimate openbox configuration here!
 - pamixer - Audio Controller
 - rofi-emoji - Emoji library for Rofi
 - xev - Key identifier
-- d-feet - DBus Indentifier
 
 ## How to install
 1. Install all the dependency.
