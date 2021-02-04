@@ -17,6 +17,7 @@ The ultimate openbox configuration here!
 - mpc - Music Player Console
 - mpd - Music Player Daemon
 - d-feet - DBus Identifier
+- cava - Terminal Visualizer
 - rofi-dev
 - libnotify-bin
 - notify-osd
