@@ -12,11 +12,11 @@ Windows Registry Editor Version 5.00
 "Icon"="\"C:\\Neovim\\bin\\nvim-qt.exe\""
 
 [HKEY_CLASSES_ROOT\Directory\shell\nvim-qt\command]
-@="\"C:\\Neovim\\bin\\nvim-qt.exe\" \"%V\""
+@="\"C:\\Neovim\\bin\\nvim-qt.exe\" \"%1\""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\nvim-qt]
 @="Edit with Neovim"
 "Icon"="\"C:\\Neovim\\bin\\nvim-qt.exe\""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\nvim-qt\command]
-@="\"C:\\Neovim\\bin\\nvim-qt.exe\" \"%1\""
+@="\"C:\\Neovim\\bin\\nvim-qt.exe\" \"%V\""
