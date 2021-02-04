@@ -7,7 +7,10 @@ This is my primary (neo)vim configuration.
 4. Install all fonts in this root folder.
 5. Execute `:PlugInstall`
 6. Execute `:CocInstall <Extension>`
-7. If you using Windows, execute `right_click_menu.reg` in this folder to enable right clicking.
+
+### Bonus Step (if you're using Windows)
+1. Open `right_click_menu.reg` with Notepad and change the location that `nvim-qt` located.
+2. Execute `right_click_menu.reg`.
 
 ## coc.vim Extension
 1. coc-tsserver

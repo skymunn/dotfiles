@@ -13,6 +13,7 @@
 - Terminal : Konsole / [urxvt](https://github.com/exg/rxvt-unicode)
 - Text Editor : [neovim](https://neovim.io/)
 - Terminal Multiplexer : [tmux](https://github.com/tmux/tmux)
+- Terminal Emulator : [eDEX-UI](https://github.com/GitSquared/edex-ui)
 - DE: [Plasma](https://kde.org/plasma-desktop/)
 - WM: [Openbox](http://openbox.org/)
 
