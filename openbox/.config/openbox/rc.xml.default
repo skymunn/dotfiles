@@ -470,7 +470,7 @@
         <command>bash -c '~/.config/rofi/launchers/colorful/launcher.sh'</command>
       </action>
     </keybind>
-    <keybind key="W-A-r">
+    <keybind key="W-comma">
       <action name="Execute">
         <command>rofi -show emoji -modi emoji</command>
       </action>
