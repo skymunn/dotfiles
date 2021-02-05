@@ -11,9 +11,6 @@ if [[ $current != *"elainord"* ]]; then
     bash -c '~/.config/openbox/visual-mode/elainord/theme'
     bash -c '~/.config/openbox/visual-mode/elainord/ui'
     
-    # Tray
-    bash -c '~/.config/openbox/tray'
-    
     # Write Current
     echo "elainord" > ~/.config/openbox/visual-mode/current
 

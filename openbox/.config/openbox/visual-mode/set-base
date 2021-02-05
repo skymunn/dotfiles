@@ -11,9 +11,6 @@ if [[ $current != *"base"* ]]; then
     bash -c '~/.config/openbox/visual-mode/base/theme'
     bash -c '~/.config/openbox/visual-mode/base/ui'
     
-    # Tray
-    bash -c '~/.config/openbox/tray'
-    
     # Write Current
     echo "base" > ~/.config/openbox/visual-mode/current
 
