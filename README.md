@@ -11,7 +11,7 @@
 ### App
 - Shell : [ohmyzsh](https://ohmyz.sh/) with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)  
 - Terminal : Konsole / [urxvt](https://github.com/exg/rxvt-unicode)
-- Text Editor : [neovim](https://neovim.io/)
+- Text Editor : [vim](https://www.vim.org/) & [neovim](https://neovim.io/)
 - Terminal Multiplexer : [tmux](https://github.com/tmux/tmux)
 - Terminal Emulator : [eDEX-UI](https://github.com/GitSquared/edex-ui)
 - DE: [Plasma](https://kde.org/plasma-desktop/)
