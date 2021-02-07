@@ -34,7 +34,9 @@ set smarttab
 set noswapfile
 
 " hide number in terminal
-autocmd TermOpen * setlocal nonumber norelativenumber
+if has("nvim")
+  autocmd TermOpen * setlocal nonumber norelativenumber
+endif
 
 map <C-x> :q<CR>
 tmap <Esc> <C-\><C-n>
