@@ -2,11 +2,13 @@ This is my primary (neo)vim configuration.
 
 ## How to install
 1. Copy this folder in `~/.config`.
-2. If you using vim, rename this folder to `.vim`.
-3. If you using vim, rename `init.vim` to `.vimrc`, `_vimrc`, or `vimrc`
-4. Install all fonts in this root folder.
-5. Execute `:PlugInstall`
-6. Execute `:CocInstall <Extension>`
+2. Install all fonts in this root folder.
+3. Open `nvim` or `nvim-qt` first to install all the dependency.
+5. Execute `:PlugInstall`.
+6. Execute `:CocInstall <Extension>`.
+7. Open `vi` or `vim` to install editor dependency.
+8. Repeat process in number 5.
+9. And, you're done!
 
 ### Bonus Step (if you're using Windows)
 1. Open `right_click_menu.reg` with Notepad and change the location that `nvim-qt` located.

@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plug')
-Plug 'editorconfig/editorconfig-vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'neoclide/coc.nvim' 
+Plug 'lucasprag/simpleblack' 
 call plug#end()
 
 " make vim startup more faster
@@ -37,6 +38,9 @@ set noswapfile
 if has("nvim")
   autocmd TermOpen * setlocal nonumber norelativenumber
 endif
+
+" disable rpc
+:CocCommand rpc.disable
 
 map <C-x> :q<CR>
 tmap <Esc> <C-\><C-n>
