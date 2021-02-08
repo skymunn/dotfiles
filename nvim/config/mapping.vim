@@ -60,5 +60,7 @@ function! s:select_current_word()
   endif
   return "*\<Plug>(coc-cursors-word):nohlsearch\<CR>"
 endfunc
+" Load session
+nmap <space>d :source .vimsession<CR>
 " Save session
 nmap <space>s :mks! .vimsession<CR>
