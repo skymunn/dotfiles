@@ -40,7 +40,7 @@ if has("nvim")
 endif
 
 " disable rpc
-:CocCommand rpc.disable
+silent exec ":!~/dotfiles/bashrc/exec/nvim_disable_rpc.sh"
 
 map <C-x> :q<CR>
 tmap <Esc> <C-\><C-n>

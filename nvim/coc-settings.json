@@ -1,6 +1,7 @@
 {
   "explorer.icon.enableNerdfont": true,
 	"rpc.workspaceElapsedTime": true,
+  "rpc.enabled": true,
   "languageserver": {
 	"python": {
 	  "command": "py",

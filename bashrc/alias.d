@@ -3,6 +3,8 @@ alias la="ls -lAh"
 alias rimraf="rm -rf"
 alias cpr="cp -r"
 
-alias vi="nvim -u ~/.config/nvim/init_editor.vim"
-alias vim="nvim -u ~/.config/nvim/init_editor.vim"
+alias vi="~/dotfiles/bashrc/exec/nvim_disable_rpc.sh && nvim -u ~/.config/nvim/init_editor.vim"
+alias vim="~/dotfiles/bashrc/exec/nvim_disable_rpc.sh && nvim -u ~/.config/nvim/init_editor.vim"
+alias nvim="~/dotfiles/bashrc/exec/nvim_disable_rpc.sh && nvim -u ~/.config/nvim/init_editor.vim"
+alias nvim-qt="~/dotfiles/bashrc/exec/nvim_disable_rpc.sh && nvim -u ~/.config/nvim/init_editor.vim"
 
