@@ -20,7 +20,6 @@ The ultimate openbox configuration here!
 - cava - Terminal Visualizer
 - rofi-dev
 - libnotify-bin
-- notify-osd
 - libimlib2-dev
 - libpulse-dev
 - libboost-program-options1.71-dev 
@@ -43,6 +42,10 @@ The ultimate openbox configuration here!
 6. Logout and start openbox session.
 7. Press `Meta + Alt + Enter` and choose the theme.
 8. Have fun!
+
+## Note for WSL
+1. `sudo service xrdp restart` or `sudo /etc/init.d/xrdp start` to start XRDP.
+2. Exchange `dolphin` with `thunar` in `~/.config/openbox/rc.xml.default`.
 
 ## Theme
 - Base
