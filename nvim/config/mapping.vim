@@ -2,9 +2,6 @@
 nnoremap <space>e :CocCommand explorer<CR>
 " Open coc diagnostic
 nnoremap <space>d :CocCommand diagnostic<CR>
-" undo redo
-map <C-z> :undo<CR>
-map <S-z> :redo<CR>
 " fixing X can cut
 map x "_d<CR>
 " Escape from terminal
