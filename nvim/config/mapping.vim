@@ -7,12 +7,20 @@ map x "_d<CR>
 " Escape from terminal
 tmap <Esc> <C-\><C-n>
 " Resize vertical window
-nmap <A-h> :vertical resize +1<CR>
-nmap <A-l> :vertical resize -1<CR>
+nmap <silent> <A-h> :vertical resize +1<CR>
+nmap <silent> <A-l> :vertical resize -1<CR>
+nmap <silent> <C-h> :vertical resize +50<CR>
+nmap <silent> <C-l> :vertical resize -50<CR>
+" Expand horizontal window
+nmap <space>w <C-w>_
+nmap <space>q <C-w>=
 " Auto brace
 inoremap { {}<Esc>i
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
+" Wrap
+nmap <space>p :set wrap<CR>
+nmap <space><space>p : set wrap!<CR>
 " Diagnostic
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
@@ -61,3 +69,4 @@ endfunc
 nmap <space>d :source .vimsession<CR>
 " Save session
 nmap <space>s :mks! .vimsession<CR>
+
