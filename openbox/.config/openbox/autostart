@@ -12,6 +12,9 @@
 #  gnome-settings-daemon &
 #fi
 
+# Polkit
+/usr/lib/polkit-kde-authentication-agent-1 &
+
 # Reset to startup
 echo "startup" > ~/.config/openbox/visual-mode/current
 

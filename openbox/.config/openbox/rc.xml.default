@@ -430,12 +430,12 @@
     <!-- Keybindings for running applications -->
     <keybind key="W-e">
       <action name="Execute">
-        <command>dolphin</command>
+        <command>thunar</command>
       </action>
     </keybind>
     <keybind key="W-S-e">
       <action name="Execute">
-        <command>thunar</command>
+        <command>dolphin</command>
       </action>
     </keybind>
     <keybind key="W-A-C-Return">
@@ -447,6 +447,11 @@
     <keybind key="W-A-Return">
       <action name="Execute">
         <command>bash -c ~/.config/xmenu/launch.sh</command>
+      </action>
+    </keybind>
+    <keybind key="F12">
+      <action name="Execute">
+        <command>yakuake</command>
       </action>
     </keybind>
     <!-- Pay tribute to scrot
