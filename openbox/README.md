@@ -17,6 +17,7 @@ The ultimate openbox configuration here!
 - mpc - Music Player Console
 - mpd - Music Player Daemon
 - d-feet - DBus Identifier
+- xorg-xev - Key identifier
 - rofi-dev
 - libnotify-bin
 - libimlib2-dev
@@ -30,7 +31,6 @@ The ultimate openbox configuration here!
 - xmenu - Meta Menu
 - pamixer - Audio Controller
 - rofi-emoji - Emoji library for Rofi
-- xev - Key identifier
 - cava - Terminal Visualizer
 
 ## How to install
