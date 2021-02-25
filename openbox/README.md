@@ -18,6 +18,7 @@ The ultimate openbox configuration here!
 - mpd - Music Player Daemon
 - d-feet - DBus Identifier
 - xorg-xev - Key identifier
+- remmina - Remote Desktop for RDP, VNC, etc
 - rofi-dev
 - libnotify-bin
 - libimlib2-dev

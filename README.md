@@ -1,6 +1,6 @@
 ### OS
-- Linux : [Debian GNU/Linux Bullseye](https://www.debian.org)
-- Windows : Windows 10 1909
+- Linux : [Manjaro 20.2 Nibia](https://manjaro.org/)
+- Windows : Windows 10 20H2.746
 
 ### Fonts
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)
@@ -23,6 +23,10 @@
 ### Keys
 - [SSH Public Key](https://meta.sr.ht/~munn.keys)
 - [Primary Signature](https://meta.sr.ht/~munn.pgp)
+
+### Wine (Linux Gaming)
+- Wine: [Proton Experimental](https://github.com/ValveSoftware/Proton/) with [tweaking from Steam](https://github.com/ValveSoftware/wine). 
+- Libs: [dxvk-bin](https://aur.archlinux.org/packages/dxvk-bin/)
 
 ### Remote
 - [GitHub](https://github.com/skymunn/dotfiles)
