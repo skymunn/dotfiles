@@ -19,6 +19,8 @@ The ultimate openbox configuration here!
 - d-feet - DBus Identifier
 - xorg-xev - Key identifier
 - remmina - Remote Desktop for RDP, VNC, etc
+- libguestfs - Modifying virtual machine
+- xclip - Clipboard
 - rofi-dev
 - libnotify-bin
 - libimlib2-dev
